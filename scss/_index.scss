@@ -1,0 +1,54 @@
+.logo{
+    width: 111px;
+    height: 40px;
+    display: block;
+    background-size: contain;
+    background-image: url(../img/logo.jpg);
+    text-indent: 100%;
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+
+.bg-hover-theme:hover{
+    background: $theme;
+    border-color: $theme ;
+    color: #8b877a ;
+}
+
+
+// tab
+
+.tab-link{
+    border: 0px;
+    background-color: #fff;
+    color: #636057;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 12px;
+    padding-bottom: 24px;
+}
+.tab-link:focus{
+    border-bottom: 2px solid #FFDF65;
+    font-weight: $font-weight-bolder;
+    outline: none;
+}
+
+
+// btn 、 btn hover
+.btn-theme{
+    color: $dark;
+}
+
+.btn-theme:hover{
+    background-color: #FF785E ;
+    color: #ffffff;
+    border-color: #FF785E;
+}
+
+.btn-outline-gray:hover{
+    background-color: #FF785E ;
+    color: #ffffff;
+    border-color: #FF785E;
+}
+
