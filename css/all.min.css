@@ -4916,6 +4916,7 @@ fieldset:disabled .btn {
 
 .accordion-flush .accordion-collapse {
   border-width: 0;
+  border-top: 1px solid #dee2e6;
 }
 
 .accordion-flush .accordion-item {
