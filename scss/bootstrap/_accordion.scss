@@ -50,7 +50,7 @@
     z-index: 3;
     border-color: $accordion-button-focus-border-color;
     outline: 0;
-    box-shadow: $accordion-button-focus-box-shadow;
+    box-shadow: none;//$accordion-button-focus-box-shadow;
   }
 }
 
@@ -103,21 +103,19 @@
   
   .accordion-collapse {
     border-width: 0 ;
-    border-top: 1px solid #dee2e6;
   }
 
   .accordion-item {
-    border-top: 1px solid #dee2e6;
-    border-right: 1px solid #dee2e6;
-    border-left: 1px solid #dee2e6;
+    border-right: 0;
+    border-left: 0;
     
-    @include border-radius(8px 8px 8px 8px);
+    @include border-radius(8px);
 
     &:first-child { border-top: 1px solid #dee2e6; }
     &:last-child { border-bottom: 1px solid #dee2e6; }
 
     .accordion-button {
-      @include border-radius(8px 8px 8px 8px);
+      @include border-radius(8px);
     }
   }
 }

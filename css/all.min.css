@@ -4869,7 +4869,7 @@ fieldset:disabled .btn {
   z-index: 3;
   border-color: #ffefb2;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(255, 223, 101, 0.25);
+  box-shadow: none;
 }
 
 .accordion-header {
@@ -4916,14 +4916,12 @@ fieldset:disabled .btn {
 
 .accordion-flush .accordion-collapse {
   border-width: 0;
-  border-top: 1px solid #dee2e6;
 }
 
 .accordion-flush .accordion-item {
-  border-top: 1px solid #dee2e6;
-  border-right: 1px solid #dee2e6;
-  border-left: 1px solid #dee2e6;
-  border-radius: 8px 8px 8px 8px;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 8px;
 }
 
 .accordion-flush .accordion-item:first-child {
@@ -4935,7 +4933,7 @@ fieldset:disabled .btn {
 }
 
 .accordion-flush .accordion-item .accordion-button {
-  border-radius: 8px 8px 8px 8px;
+  border-radius: 8px;
 }
 
 .breadcrumb {
@@ -11457,5 +11455,16 @@ ul {
 .accordion-button > span {
   width: 28px;
   text-align: center;
+}
+
+.accordion-flush .accordion-collapse {
+  border-width: 0;
+  border-top: 1px solid #dee2e6;
+}
+
+.accordion-flush .accordion-item {
+  border-top: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
 }
 /*# sourceMappingURL=all.min.css.map */

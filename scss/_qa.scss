@@ -6,3 +6,15 @@
     text-align: center;
 }
 
+.accordion-flush {
+    .accordion-collapse {
+        border-width: 0 ;
+        border-top: 1px solid #dee2e6;
+    }
+
+    .accordion-item {
+        border-top: 1px solid #dee2e6;
+        border-right: 1px solid #dee2e6;
+        border-left: 1px solid #dee2e6;
+    }
+}
