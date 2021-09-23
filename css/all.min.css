@@ -7981,6 +7981,18 @@ fieldset:disabled .btn {
   letter-spacing: 0.25rem !important;
 }
 
+.lsp-7 {
+  letter-spacing: 0.7px !important;
+}
+
+.lsp-8 {
+  letter-spacing: 0.8px !important;
+}
+
+.lsp-49 {
+  letter-spacing: 0.49px !important;
+}
+
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
 }
@@ -8933,6 +8945,15 @@ fieldset:disabled .btn {
   .lsp-sm-4 {
     letter-spacing: 0.25rem !important;
   }
+  .lsp-sm-7 {
+    letter-spacing: 0.7px !important;
+  }
+  .lsp-sm-8 {
+    letter-spacing: 0.8px !important;
+  }
+  .lsp-sm-49 {
+    letter-spacing: 0.49px !important;
+  }
   .fs-sm-1 {
     font-size: 2.5rem !important;
   }
@@ -9529,6 +9550,15 @@ fieldset:disabled .btn {
   }
   .lsp-md-4 {
     letter-spacing: 0.25rem !important;
+  }
+  .lsp-md-7 {
+    letter-spacing: 0.7px !important;
+  }
+  .lsp-md-8 {
+    letter-spacing: 0.8px !important;
+  }
+  .lsp-md-49 {
+    letter-spacing: 0.49px !important;
   }
   .fs-md-1 {
     font-size: 2.5rem !important;
@@ -10127,6 +10157,15 @@ fieldset:disabled .btn {
   .lsp-lg-4 {
     letter-spacing: 0.25rem !important;
   }
+  .lsp-lg-7 {
+    letter-spacing: 0.7px !important;
+  }
+  .lsp-lg-8 {
+    letter-spacing: 0.8px !important;
+  }
+  .lsp-lg-49 {
+    letter-spacing: 0.49px !important;
+  }
   .fs-lg-1 {
     font-size: 2.5rem !important;
   }
@@ -10723,6 +10762,15 @@ fieldset:disabled .btn {
   }
   .lsp-xl-4 {
     letter-spacing: 0.25rem !important;
+  }
+  .lsp-xl-7 {
+    letter-spacing: 0.7px !important;
+  }
+  .lsp-xl-8 {
+    letter-spacing: 0.8px !important;
+  }
+  .lsp-xl-49 {
+    letter-spacing: 0.49px !important;
   }
   .fs-xl-1 {
     font-size: 2.5rem !important;
@@ -11321,6 +11369,15 @@ fieldset:disabled .btn {
   .lsp-xxl-4 {
     letter-spacing: 0.25rem !important;
   }
+  .lsp-xxl-7 {
+    letter-spacing: 0.7px !important;
+  }
+  .lsp-xxl-8 {
+    letter-spacing: 0.8px !important;
+  }
+  .lsp-xxl-49 {
+    letter-spacing: 0.49px !important;
+  }
   .fs-xxl-1 {
     font-size: 2.5rem !important;
   }
@@ -11450,6 +11507,29 @@ ul {
   background-color: #FF785E;
   color: #ffffff;
   border-color: #FF785E;
+}
+
+.text-align-justify {
+  text-align: justify;
+}
+
+@media (max-width: 576px) {
+  .progress-container {
+    position: relative;
+    width: 135px;
+    height: 132px;
+    overflow: hidden;
+  }
+  .progress-img {
+    position: absolute;
+    width: 115%;
+    height: 100%;
+    left: -15px;
+  }
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .accordion-button > span {

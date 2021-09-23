@@ -56,3 +56,27 @@ ol, ul {
     border-color: #FF785E;
 }
 
+// progress 目前進度
+
+.text-align-justify{
+    text-align: justify;
+}
+
+@media (max-width: 576px){
+    .progress-container{
+        position: relative;
+        width: 135px;
+        height: 132px;
+        overflow: hidden;
+    }
+    .progress-img{
+        position: absolute;
+        width: 115%;
+        height: 100%;
+        left: -15px;
+    }
+}
+
+.w-100{
+    width: 100%;
+}
