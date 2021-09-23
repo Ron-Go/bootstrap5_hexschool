@@ -280,6 +280,9 @@ $letter-spacers: (
   2: $spacer / 8,
   3: ($spacer * 3) / 16,
   4: $spacer / 4,
+  7: 0.7px,
+  8: 0.8px,
+  49: 0.49px,
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
