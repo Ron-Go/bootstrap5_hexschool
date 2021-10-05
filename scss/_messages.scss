@@ -1,0 +1,72 @@
+.messages{
+    
+    &-body {
+        padding: $spacer;
+        border: 1px solid $border-color;
+        border-radius: $border-radius * 2;
+    };
+    
+    &-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    };
+    
+    &-img{
+        padding-right: $spacer;
+    };
+    
+    &-title {
+        
+    };
+    
+    &-name{
+        margin-bottom: .25rem;
+        line-height: $line-height-base;
+        letter-spacing: $spacer / 8;
+        font-weight: normal;
+    };
+    
+    &-date{
+        margin-bottom: 0rem;
+        font-size: $h7-font-size;
+        line-height: 24px;
+        letter-spacing: 2px;
+        font-weight: normal;
+    };
+    
+    &-content{
+        padding-top: $spacer;
+    };
+    &-text{
+        font-size: $h6-font-size;
+        line-height: $line-height-base;
+        letter-spacing: 0.7px;
+        text-align: justify;
+        margin-bottom: 0rem;
+    }
+    
+    &-reply{
+        margin-top: $spacer;
+        padding: $spacer;
+        border-radius: $border-radius;
+        background: #F8F9FA;
+    };
+
+    &-Proposer{
+        margin-bottom: 0rem;
+        font-size: $h7-font-size;
+        line-height: 24px;
+        letter-spacing: 0.61px;
+        text-align: justify;
+        color: $orange;
+
+        &-reply{
+            margin-bottom: 0rem;
+            font-size: $h6-font-size;
+            line-height: $line-height-base;
+            letter-spacing: 0.7px;
+            text-align: justify;
+        }
+    }
+};

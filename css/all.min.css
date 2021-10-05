@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;700&display=swap");
+.NotoSansTC {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.balooTamma2 {
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-semi-bold {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
 /*!
  * Bootstrap v5.0.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11487,7 +11512,7 @@ ul {
   padding-bottom: 24px;
 }
 
-.tab-link:focus {
+.tab-link:focus, .tab-link.active {
   border-bottom: 2px solid #FFDF65;
   font-weight: bolder;
   outline: none;
@@ -11546,5 +11571,72 @@ ul {
   border-top: 1px solid #dee2e6;
   border-right: 1px solid #dee2e6;
   border-left: 1px solid #dee2e6;
+}
+
+.messages-body {
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+}
+
+.messages-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.messages-img {
+  padding-right: 1rem;
+}
+
+.messages-name {
+  margin-bottom: .25rem;
+  line-height: 1.5;
+  letter-spacing: 0.125rem;
+  font-weight: normal;
+}
+
+.messages-date {
+  margin-bottom: 0rem;
+  font-size: 0.875rem;
+  line-height: 24px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.messages-content {
+  padding-top: 1rem;
+}
+
+.messages-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+  text-align: justify;
+  margin-bottom: 0rem;
+}
+
+.messages-reply {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background: #F8F9FA;
+}
+
+.messages-Proposer {
+  margin-bottom: 0rem;
+  font-size: 0.875rem;
+  line-height: 24px;
+  letter-spacing: 0.61px;
+  text-align: justify;
+  color: #fd7e14;
+}
+
+.messages-Proposer-reply {
+  margin-bottom: 0rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+  text-align: justify;
 }
 /*# sourceMappingURL=all.min.css.map */

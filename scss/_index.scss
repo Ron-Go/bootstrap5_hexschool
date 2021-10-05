@@ -32,11 +32,12 @@ ol, ul {
     padding: 0px 12px;
     padding-bottom: 24px;
 }
-.tab-link:focus{
+.tab-link:focus ,.tab-link.active{
     border-bottom: 2px solid #FFDF65;
     font-weight: $font-weight-bolder;
     outline: none;
 }
+
 
 
 // btn 、 btn hover
