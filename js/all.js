@@ -17,7 +17,8 @@ inputMail.addEventListener('keyup',function (){
   // 從電子信箱輸入欄位取值
   let inputMailValue = inputMail.value;
   // 電子信箱輸入欄位取值，比對字串‘＠’ && '.com'
-  if (inputMailValue.includes("@") && inputMailValue.includes(".com")) {
+  if (inputMailValue.includes("@") && inputMailValue.includes(".com"))
+  {
     // 判斷式為true，class選擇器『增加』d-none，讓提示文字隱藏
     inputMailAlert.classList.add("d-none");
   } else {
