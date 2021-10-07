@@ -85,6 +85,7 @@ $theme:         $theme !default;
 $sponsor:       $sponsor !default;
 $gray:          $gray !default;
 $formInput:     $formInput !default;
+$orange:        $orange !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -101,6 +102,7 @@ $theme-colors: (
   "sponsor":    $sponsor,
   "gray":       $gray,
   "formInput":  $formInput,
+  "orange":     $orange,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -414,7 +416,7 @@ $box-shadow-inset:            inset 0 1px 2px rgba($black, .075) !default;
 // scss-docs-end box-shadow-variables
 
 $component-active-color:      $white !default;
-$component-active-bg:         $theme !default;
+$component-active-bg:         $orange !default;
 // $component-active-bg:         $primary !default;
 
 // scss-docs-start caret-variables
@@ -658,8 +660,8 @@ $input-btn-font-family:       null !default;
 $input-btn-font-size:         $font-size-base !default;
 $input-btn-line-height:       $line-height-base !default;
 
-$input-btn-focus-width:         .25rem !default;
-$input-btn-focus-color-opacity: .25 !default;
+$input-btn-focus-width:         .0625rem !default; //default 0.25rem
+$input-btn-focus-color-opacity: 1.0 !default; //default 0.25
 $input-btn-focus-color:         rgba($component-active-bg, $input-btn-focus-color-opacity) !default;
 $input-btn-focus-blur:          0 !default;
 $input-btn-focus-box-shadow:    0 0 $input-btn-focus-blur $input-btn-focus-width $input-btn-focus-color !default;
